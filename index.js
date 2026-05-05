@@ -1,13 +1,10 @@
-let a =1;
-let b =2;
-console.log(__dirname);
+// const { testCreateFiles } = require("./base/FileManager");
+// const { main } = require("./base/sum");
+// const { logMessage } = require("./base/LogManager");
+// import { crawl } from "./base/scrapper/static-scrapper.js";
+import { crawl, crawlNaverBlog } from "./base/scrapper/dynamic-scrapper.js";
 
-console.log(a + b);
-
-function sum(a, b) {
-    console.log(a);
-    console.log(b);
-    return a + b;
-}
-const c = sum(a, b);
-console.log(c);
+crawlNaverBlog("물병");
+// crawl();
+// main();
+// testCreateFiles();

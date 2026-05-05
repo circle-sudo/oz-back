@@ -1,0 +1,5 @@
+Platform: darwin
+
+  Free Memory: 114573312
+
+  Total Memory: 17179869184
